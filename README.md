@@ -57,7 +57,7 @@ Q1. 有师傅反馈使用这个skills时出现如下图这种场景
 <img width="1580" height="868" alt="image" src="https://github.com/user-attachments/assets/4d07e966-9fda-429a-8d59-26dfe7525d4d" />
 A1. 解决这个问题其实很简单，我们只需要按照openai.yaml的内容提示词模版，并且将Target URL替换为127.0.0.1即可（已经优化了skill.md中的提示词确保127.0.0.1可执行）
 <img width="1114" height="1228" alt="image" src="https://github.com/user-attachments/assets/cb842e61-b576-4650-8efc-67cf0946136c" />
-然后当AI无法访问https://127.0.0.1:8888/就会转去真实的页面进行测试，如下图所示
+然后当AI无法访问https://127.0.0.1:8888/ 就会转去真实的页面进行测试，如下图所示
 <img width="1458" height="1178" alt="image" src="https://github.com/user-attachments/assets/8ba8a93b-ea10-4ec6-8f82-d5833bc38779" />
 
 ## 使用示意
